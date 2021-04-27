@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Product by price</title>
+</head>
+<body>
+    <%
+        arr.forEach(items<>{%>
+            <section>
+                <ul>
+                    <li><= % this.name%></li>
+                    <li><= % this.price%></li>
+                    <li><= % this.image_link%></li>
+                    <li><= % this.description%></li>
+                </ul>
+            </section>
+        })%>
+
+        <script src="server.js"></script>
+
+</body>
+</html>
